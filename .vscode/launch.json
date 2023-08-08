@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GatewayApplication",
+            "request": "launch",
+            "mainClass": "com.budgetbuddy.gateway.GatewayApplication",
+            "projectName": "gateway"
+        },
+        {
+            "type": "java",
+            "name": "RegistryApplication",
+            "request": "launch",
+            "mainClass": "com.budgetbuddy.registry.RegistryApplication"
+        },
+        {
+            "type": "java",
+            "name": "StatisticsServiceApplication",
+            "request": "launch",
+            "mainClass": "com.budgetbuddy.statisticsservice.StatisticsServiceApplication",
+            "projectName": "statistics-service"
+        },
+        {
+            "type": "java",
+            "name": "AccountServiceApplication",
+            "request": "launch",
+            "mainClass": "com.budgetbuddy.accountservice.AccountServiceApplication",
+            "projectName": "account-service"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigApplication<config>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.budgetbuddy.config.ConfigApplication",
+            "projectName": "config",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
